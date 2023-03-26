@@ -1,0 +1,26 @@
+{
+  "name": "react-native-sample-lib",
+  "version": "0.1.0",
+  "description": "sample lib",
+  "main": "lib/commonjs/index",
+  "module": "lib/module/index",
+  "types": "lib/typescript/index.d.ts",
+  "react-native": "src/index",
+  "source": "src/index",
+  "files": [
+    "src",
+    "lib",
+    "android",
+    "ios",
+    "cpp",
+    "react-native-cxx-lib.podspec",
+    "!android/build",
+    "!ios/build"
+  ],
+  "author": "ibit <example@ibitcy.com>",
+  "homepage": "https://google.com",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
+}
